@@ -15,6 +15,12 @@ const pages = [
     href: "/mobile-dashboard.html",
     primary: false,
   },
+  {
+    title: "順位表・チーム比較",
+    description: "セ・パ別の順位表と、12球団のチーム打撃・投手成績をリーグ内で比較できます。",
+    href: "/team-comparison.html",
+    primary: false,
+  },
 ];
 
 function App() {
@@ -31,7 +37,7 @@ function App() {
       <section className="cards" aria-label="ページ一覧">
         {pages.map((page) => (
           <a className={page.primary ? "card primary" : "card"} href={page.href} key={page.href}>
-            <span>{page.primary ? "おすすめ" : "ランキング"}</span>
+            <span>{page.primary ? "おすすめ" : page.href.includes("comparison") ? "チーム" : "ランキング"}</span>
             <h2>{page.title}</h2>
             <p>{page.description}</p>
           </a>

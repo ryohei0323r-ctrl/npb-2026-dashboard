@@ -1,10 +1,11 @@
-const CACHE_NAME = "npb-status-v3";
+const CACHE_NAME = "npb-status-v4";
 const ASSETS = [
   "/",
   "/manifest.webmanifest",
   "/team-status.html",
   "/mobile-dashboard.html",
-  "/player-detail.html"
+  "/player-detail.html",
+  "/team-comparison.html"
 ];
 
 self.addEventListener("install", (event) => {
