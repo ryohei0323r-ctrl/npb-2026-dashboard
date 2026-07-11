@@ -3,7 +3,9 @@
   "short_name": "NPB Status",
   "description": "NPB 2026 個人成績とチーム選手状況をスマホで確認できるWEBアプリ",
   "start_url": "/",
+  "scope": "/",
   "display": "standalone",
+  "orientation": "portrait",
   "background_color": "#f5f7f8",
   "theme_color": "#0b5d75",
   "icons": [
