@@ -42,7 +42,7 @@ function App() {
         <b>更新方法</b>
         <p>
           Mac側で <code>update_npb_current.command</code> を実行すると、ExcelとWEBアプリ用ページが更新されます。
-          公開URLへ反映するには、更新後に再デプロイします。
+          GitHubへの送信と公開URLの更新まで自動で進みます。
         </p>
       </section>
     </main>
