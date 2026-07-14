@@ -1,4 +1,4 @@
-const CACHE_NAME = "npb-status-v4";
+const CACHE_NAME = "npb-status-v5";
 const ASSETS = [
   "/",
   "/manifest.webmanifest",
